@@ -6,7 +6,7 @@ var mongoose = require('mongoose')
 var routes = require('./src/routes')
 
 var corsOptions = { // CORS 옵션
-    origin: 'http://localhost:3000',
+    origin: '*',
     credentials: true
 }
 const CONNECT_URL = 'mongodb://localhost:27017/syleemomo'
